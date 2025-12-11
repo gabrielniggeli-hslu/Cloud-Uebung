@@ -1,12 +1,4 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-
-@app.route('/')
-def hello():
-    return 'Hello, World!'
-    """
+"""
 This module contains the main application logic for the Flask app.
 
 It defines the routes and handlers for the different URL paths in the application.
